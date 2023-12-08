@@ -21,7 +21,7 @@ class Application(Frame):
         messagebox.showinfo('Message', 'Hello, %s' % name)
 
 app = Application()
-# 设置窗口标题ここに変更を加えましたさらにここに変更を加えましたここをコンフリクトさせます。:
+# 设置窗口标题ここを衝突させます。:
 app.master.title('Hello World')
 # 主消息循环:
 app.mainloop()
